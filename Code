@@ -1,0 +1,19 @@
+from typing import Dict, List, TextIO
+
+def create_dictionary(file1: TextIO) -> Dict[str, int]:
+    '''Return a dictionary populated with the information coded in file1.
+    >>> File_1 = open('File1.txt')
+    >>> hay_dict = create_dictionary(File_1)
+    >>> hay_dict
+    {'administer': 100000,
+    'spending': 200000,
+    'manage': 50000,
+    'responsability': 25000,
+    'expertise': 100,
+    'skill': 50,
+    'money': 75000}
+    
+    '''
+    File_1 = read('File1.txt')
+    hay_dict = dict(File_1)
+print(File1.txt)
