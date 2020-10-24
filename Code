@@ -17,3 +17,20 @@ def create_dictionary(file1: TextIO) -> Dict[str, int]:
     File_1 = read('File1.txt')
     hay_dict = dict(File_1)
 print(File1.txt)
+
+#7
+#administer 100000
+#.
+#spending 200000
+#.
+#manage 50000
+#.
+#responsibility 25000
+#.
+#expertise 100
+#.
+#skill 50
+#.
+#money 75000
+#.
+
